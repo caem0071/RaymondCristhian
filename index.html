@@ -4,23 +4,15 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <!--
-
-    Hello RAYMOND OLISA!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
+  
     <h1 id = "header">Product Landing Raymond and Cristhian</h1>
     <header id="header">
       <div class="logo">
@@ -33,13 +25,14 @@
 
       <nav id="nav-bar">
         <ul>
-          <li><a class="nav-link" href="Features">Features</a></li>
-          <li><a class="nav-link" href="How-it-works">How It Works</a></li>
-          <li><a class="nav-link" href="Pricing">Pricing</a></li>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
         </ul>
       </nav>
+
       <section id="hero">
-        <h2>Handcrafted, home-made masterpieces</h2>
+        <h2>Product new box for many product</h2>
         <form id="form" action="https://www.google.com">
           <input
             name="email"
@@ -51,25 +44,249 @@
           <input id="submit" type="submit" value="Get Started" class="btn" />
         </form>
       </section>
+
+      
+      <div class="container">
+        
+        <section id="features" >
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+            <div class="desc">
+              <h2>PRODUCT DESCRIPTIONS</h2>
+              <p>This product is the full description and show text</p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+            <div class="desc">
+              <h2>DELIVERY</h2>
+              <p>Delivery is very fast in our motorcycle</p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+            </div>
+            <div class="desc">
+              <h2>QUALITY OF PRODUCT</h2>
+              <p>Is the best quality material and product fabric with the best manufacturer<p>
+            </div>
+          </div>
+        </section>
+
       <section id="how-it-works">
-          <iframe
-            id="video"
-            height="315"
-            src="https://www.youtube.com/watch?v=vL1k-qb4RbE"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/vL1k-qb4RbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
     </header>
 
     <div class="container"></div>
 
     <section id = "hero">
-      <h3>Hancrafted, home-made masterpieces</h3>
+      <h3>Other section for products features</h3>
       <form class="form" action="index.html" method="post">
 
       </form>
     </section>
+
+    <div id="generic_price_table">   
+      <section id="pricing">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-12">
+                          <!--PRICE HEADING START-->
+                          <div class="price-heading clearfix">
+                              <h1>PRICING TABLE</h1>
+                          </div>
+                          <!--//PRICE HEADING END-->
+                      </div>
+                  </div>
+              </div>
+              <div class="container">
+                  
+                  <!--BLOCK ROW START-->
+                  <div class="row">
+                      <div class="col-md-4">
+                      
+                        <!--PRICE CONTENT START-->
+                          <div class="generic_content clearfix">
+                              
+                              <!--HEAD PRICE DETAIL START-->
+                              <div class="generic_head_price clearfix">
+                              
+                                  <!--HEAD CONTENT START-->
+                                  <div class="generic_head_content clearfix">
+                                  
+                                    <!--HEAD START-->
+                                      <div class="head_bg"></div>
+                                      <div class="head">
+                                          <span>Basic</span>
+                                      </div>
+                                      <!--//HEAD END-->
+                                      
+                                  </div>
+                                  <!--//HEAD CONTENT END-->
+                                  
+                                  <!--PRICE START-->
+                                  <div class="generic_price_tag clearfix">	
+                                      <span class="price">
+                                          <span class="sign">$</span>
+                                          <span class="currency">99</span>
+                                          <span class="cent">.99</span>
+                                          <span class="month">/MON</span>
+                                      </span>
+                                  </div>
+                                  <!--//PRICE END-->
+                                  
+                              </div>                            
+                              <!--//HEAD PRICE DETAIL END-->
+                              
+                              <!--FEATURE LIST START-->
+                              <div class="generic_feature_list">
+                                <ul>
+                                    <li><span>2GB</span> Bandwidth</li>
+                                      <li><span>150GB</span> Storage</li>
+                                      <li><span>12</span> Accounts</li>
+                                      <li><span>7</span> Host Domain</li>
+                                      <li><span>24/7</span> Support</li>
+                                  </ul>
+                              </div>
+                              <!--//FEATURE LIST END-->
+                              
+                              <!--BUTTON START-->
+                              <div class="generic_price_btn clearfix">
+                                <a class="" href="">Sign up</a>
+                              </div>
+                              <!--//BUTTON END-->
+                              
+                          </div>
+                          <!--//PRICE CONTENT END-->
+                              
+                      </div>
+                      
+                      <div class="col-md-4">
+                      
+                        <!--PRICE CONTENT START-->
+                          <div class="generic_content active clearfix">
+                              
+                              <!--HEAD PRICE DETAIL START-->
+                              <div class="generic_head_price clearfix">
+                              
+                                  <!--HEAD CONTENT START-->
+                                  <div class="generic_head_content clearfix">
+                                  
+                                    <!--HEAD START-->
+                                      <div class="head_bg"></div>
+                                      <div class="head">
+                                          <span>Standard</span>
+                                      </div>
+                                      <!--//HEAD END-->
+                                      
+                                  </div>
+                                  <!--//HEAD CONTENT END-->
+                                  
+                                  <!--PRICE START-->
+                                  <div class="generic_price_tag clearfix">	
+                                      <span class="price">
+                                          <span class="sign">$</span>
+                                          <span class="currency">199</span>
+                                          <span class="cent">.99</span>
+                                          <span class="month">/MON</span>
+                                      </span>
+                                  </div>
+                                  <!--//PRICE END-->
+                                  
+                              </div>                            
+                              <!--//HEAD PRICE DETAIL END-->
+                              
+                              <!--FEATURE LIST START-->
+                              <div class="generic_feature_list">
+                                <ul>
+                                    <li><span>2GB</span> Bandwidth</li>
+                                      <li><span>150GB</span> Storage</li>
+                                      <li><span>12</span> Accounts</li>
+                                      <li><span>7</span> Host Domain</li>
+                                      <li><span>24/7</span> Support</li>
+                                  </ul>
+                              </div>
+                              <!--//FEATURE LIST END-->
+                              
+                              <!--BUTTON START-->
+                              <div class="generic_price_btn clearfix">
+                                <a class="" href="">Sign up</a>
+                              </div>
+                              <!--//BUTTON END-->
+                              
+                          </div>
+                          <!--//PRICE CONTENT END-->
+                              
+                      </div>
+                      <div class="col-md-4">
+                      
+                        <!--PRICE CONTENT START-->
+                          <div class="generic_content clearfix">
+                              
+                              <!--HEAD PRICE DETAIL START-->
+                              <div class="generic_head_price clearfix">
+                              
+                                  <!--HEAD CONTENT START-->
+                                  <div class="generic_head_content clearfix">
+                                  
+                                    <!--HEAD START-->
+                                      <div class="head_bg"></div>
+                                      <div class="head">
+                                          <span>Unlimited</span>
+                                      </div>
+                                      <!--//HEAD END-->
+                                      
+                                  </div>
+                                  <!--//HEAD CONTENT END-->
+                                  
+                                  <!--PRICE START-->
+                                  <div class="generic_price_tag clearfix">	
+                                      <span class="price">
+                                          <span class="sign">$</span>
+                                          <span class="currency">299</span>
+                                          <span class="cent">.99</span>
+                                          <span class="month">/MON</span>
+                                      </span>
+                                  </div>
+                                  <!--//PRICE END-->
+                                  
+                              </div>                            
+                              <!--//HEAD PRICE DETAIL END-->
+                              
+                              <!--FEATURE LIST START-->
+                              <div class="generic_feature_list">
+                                <ul>
+                                    <li><span>2GB</span> Bandwidth</li>
+                                      <li><span>150GB</span> Storage</li>
+                                      <li><span>12</span> Accounts</li>
+                                      <li><span>7</span> Host Domain</li>
+                                      <li><span>24/7</span> Support</li>
+                                  </ul>
+                              </div>
+                              <!--//FEATURE LIST END-->
+                              
+                              <!--BUTTON START-->
+                              <div class="generic_price_btn clearfix">
+                                <a class="" href="">Sign up</a>
+                              </div>
+                              <!--//BUTTON END-->
+                              
+                          </div>
+                          <!--//PRICE CONTENT END-->
+                              
+                      </div>
+                  </div>	
+                  <!--//BLOCK ROW END-->
+                  
+              </div>
+          </section>             
+        <footer>
+            <a class="bottom_btn" href="#">&copy; Raymond Olisa and Cristhian</a>
+          </footer>
+      </div>
+
     <script  src="js/index.js"></script>
   </body>
 </html>
